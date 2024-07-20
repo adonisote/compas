@@ -21,10 +21,14 @@ import { vertexAI } from '@genkit-ai/vertexai';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  // ...
-  projectId: 'REPLACE_WITH_YOUR_PROJECT_ID',
-  // ...
+  apiKey: "AIzaSyA5kQkDK-S6wYqKIFZjrzNvYZeqPuZJFVk",
+  authDomain: "compas-codelab.firebaseapp.com",
+  projectId: "compas-codelab",
+  storageBucket: "compas-codelab.appspot.com",
+  messagingSenderId: "842169812050",
+  appId: "1:842169812050:web:eee655465cfcd1a6b3cb8b"
 };
+
 
 export const getProjectId = () => {
   return firebaseConfig.projectId;
